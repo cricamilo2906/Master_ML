@@ -1,5 +1,9 @@
 # **Guía 2 - Análisis de datos con Pandas**
 
+## Instrucciones de ejecución
+ 
+Se debe leer el archivo "telecom_churn.csv" y seguir las instrucciones de definición de variables incluidas en la primera parte del archivo .ipynb.
+
 ## Análisis de deserción de clientes en el sector de telecomunicaciones
 
 Teniendo en cuenta que para las empresas de la industria de telecomunicaciones, la retención de clientes es un factor crítico donde adquirir nuevos clientes puede ser más costosos que mantener los actuales, el análisis se concentró en descubrir patrónes o factores que permitan identificar las causas posibles de deserción de clientes (*churn*).
