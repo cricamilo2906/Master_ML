@@ -1,26 +1,22 @@
-# **Guía 2 - Análisis de datos con Pandas**
+# **Guía 3 - Análisis de datos con Pandas**
 
 ## Instrucciones de ejecución
  
-Se debe leer el archivo "telecom_churn.csv" y seguir las instrucciones de definición de variables incluidas en la primera parte del archivo .ipynb.
+Se debe leer el archivo "accidents-1.csv" y seguir las instrucciones de definición de variables incluidas en la primera parte del archivo .ipynb.
 
-## Análisis de deserción de clientes en el sector de telecomunicaciones
+## Análisis de accidentes de transito en Nueva York entre enero de 2018 y agosto de 2019
 
-Teniendo en cuenta que para las empresas de la industria de telecomunicaciones, la retención de clientes es un factor crítico donde adquirir nuevos clientes puede ser más costosos que mantener los actuales, el análisis se concentró en descubrir patrónes o factores que permitan identificar las causas posibles de deserción de clientes (*churn*).
+Se realizó un análisis de datos accidentes en Nueva York caracterizado por una limpieza inicial de los datos y posteriormente un EDA basado en visualizaciones. La conclusiones principales fueron las siguientes:
 
-El trabajo, condensado en el archivo .ipynb llamado *guia_2*, consistió, en primer lugar, en realizar un análisis explotarorio de la base de datos para entender la cantidad de información con la que se contaba, es decir, la dimensión del dataset, la cantidad y el tipo de variables que pueden ser relevantes para tratar el problema y la distribución de la variable objetivo *churn* y si el dataset contaba con información faltante o valores nulos.
+- El número de accidentes desde enero de 2018 hasta agosto de 2019 tiene un promedio de 11.926. En la gráfica se observa que, de mayo a diciembre de 2018, el número de accidentes se mantiene por encima del promedio y sigue una tendencia decreciente hasta mayo de 2019, cuando vuelve a superarlo.
+- No hay una tendencia alcista obvia en los accidentes a lo largo del tiempo.
+- Se encuentra que el enfoque de horas sin contar las fechas problemas relacionados con las temporadas estacionales de la ciudad, periodos lluviosos o con nieve pueden tener un comportamiento de accidentalidad durante el día distinto a los periodos secos. Asimismo, durante las temporadas altas de la ciudad, el comportamiento de accidentes durante las horas del día puede ser diferente a las temporadas bajas.
+- El mayor número de accidentes en un día se presenta entre las 3 y las 6pm, el pico de accidentes en este rango horario es común para todos los municipios.
+- Los principales factores que contribuyen a los accidentes son la falta de atención del conductor/la distracción, no ceder el derecho de pago, estar muy cerca al otro, retroceder de manera insegura, uso indebido de carril y adelantar demasiado cerca.
+- La información suministrada no permite saber cuales son las medidas que se tomaron para reducir la accidentalidad en los cinco municipios. Como se menciono anteriormente hay multiples factores relacionados principalmente con los conductores. 
+- Los mapas de calor no permiten realizar una interpretación correcta de los cambios que pueden existir en los factores de la accidentalidad y el contexto de las demás variables. 
 
-Posteriormente, se utilizaron variables concernientes a servicios adicionales al plan de los clientes como plan internacional o servicio de correo de voz, con el din de identificar si eran factores que influyen en las tasas de deserción. En este casp, se encontró que la deserción es 30% mayor en planes que contaban con servicio internacional y de 8% más en planes que no cuentan con servicio de correo de voz.
-
-Por otro lado, respecto a la duración de las cuentas de los clientes se encontró que la desersion de clientes es mayor en cuentas con mayor tiempo de antiguedad, sin embargo los promedios son muy similares similares.
-
-Con relación a las variables asociadas al uso del servicio como los minutos usados en los diferentes momentos del día, se encontró que en general, decir tanto en minutos usados durante el día como en la noche, la cantidad de minutos promedio usados por los clientes dados de baja es mayor respecto a la media de clientes activos.
-
-En lo que concierne a servicio al cliente, al agrupar los clientes que se comunican con la empresa más de 3 veces versus los que se comunican 3 veces o menos, se encontró que este primer grupo efectivamente tienen una mayor tasa de desercion, es decir, entre el cliente más se comunique con servicio al cliente, mayor es la probabilidad de que cancele su servicio.
-
-Finalmente, se revisó si el costo total de las llamadas diurnas y nocturnas, así como el gasto realizado por los clientes en llamadas internacionales influían en la tasa de deserción. Se observa que el costo de las llamadas diuernas y nocturnas es mayor en los clientes dados de baja, así como el gasto en llamadas es mayor en estos usuarios respecto a los que aun siguen activos.
-
-De esta manera, se puede concluir que los planes con servicio incluido de llamadas internacionales incluidos y de correo de voz; la cantidad de minutos usados; la cantidad de veces que el usuario se comunica con servicio al cliente y el costo de las llamadas son variables que influyen en la decisión de cancelar el servicio de telecomunicaciones en esta empresa y, por tanto, factores a mejorar para lograr una mayor tasa de retención de los clientes.
+Se anexan los mapas de calor obtenidos para cada año en formato .html
 
 
 
